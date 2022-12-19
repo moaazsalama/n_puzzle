@@ -4,10 +4,9 @@
 # Released under a "Simplified BSD" license
 import math
 
-import pygame, sys, random
+import pygame, sys, random, timeit
 from datetime import datetime
 from pygame.locals import *
-
 from copy import deepcopy
 from operator import itemgetter
 from Heuristic import Heuristic
